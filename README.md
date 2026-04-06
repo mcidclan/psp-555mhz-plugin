@@ -1,7 +1,9 @@
 # Experimental Overclock targeting 555MHz
 
 ## Description
-This is an experimental project for technical purposes only, intended for developers and advanced users. Stability is not guaranteed, use with caution.
+This is an experimental project for technical purposes only, intended for developers and advanced users. Stability is not guaranteed, use with caution.  
+
+This project does not guarantee 555MHz overclocking on all PSPs this is a theoretical maximum that the code can target. Some PSPs will comfortably exceed 407MHz, others will be around that mark, and some may fall below it.
 
 ## Usage
 
@@ -21,7 +23,9 @@ The plugin auto-starts at 333MHz. In most cases, you should see the square a few
 ### ms0:/overconfig.txt
 If the file doesn't exist, the plugin will target 555MHz for the overclock frequency. So you must set a value between 333 and 555 in that file.  
 
-You can create that file manually, or use the overclock stress tester provided with this project, and let it create the file at the root of the memory stick for you with the maximum frequency supported by your PSP.
+You can create that file manually, but it is **HIGHLY** recommended to use the overclock stress tester provided with this project, and let it create the file at the root of the memory stick for you with the maximum frequency supported by your PSP.  
+
+In case you want to write the value by hand, start from 333 and increase in steps of multiples of 5.
 
 ## Compatibility and Testing
 
