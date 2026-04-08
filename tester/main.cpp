@@ -24,11 +24,11 @@ PSP_MAIN_THREAD_ATTR(PSP_THREAD_ATTR_VFPU | PSP_THREAD_ATTR_USER);
 
 #define DEFAULT_FREQUENCY           333
 #define OVERCLOCK_FREQUENCY_STEP    5
-static int THEORETICAL_FREQUENCY  = 555; //466;
+static int THEORETICAL_FREQUENCY  = 555; // 524; // 471;
 
 #define PLL_MUL_MSB           0x0124
 #define PLL_BASE_FREQ         37
-#define PLL_DEN               /*20*/ 17
+#define PLL_DEN               17 /*18*/ /*20*/
 #define PLL_RATIO_INDEX       5
 #define PLL_RATIO             1.0f
 //#define PLL_CUSTOM_FLAG       27
