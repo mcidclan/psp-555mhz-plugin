@@ -9,6 +9,7 @@ The current target frequency is set to 471 MHz (defined by `THEORETICAL_FREQUENC
 
 ### Prerequisites
 Before using this plugin, make sure to:
+- Install the pspsdk and related toolchain
 - Disable all previous versions or similar plugins
 - Remove any existing overclocking >333MHz code from your application
 
@@ -41,6 +42,7 @@ See the `tester` folder of this repository for more information.
 | PSP 1000 | Tested |
 | PSP Go | Tested |
 | PSP Street (E1000) | Not supported yet |
+| ePSP (Vita) | Not working |
 
 ## Build
 You can build the project using `./build.sh`. This will bundle all files into `./bin/build/` ready to be copied to the root of your Memory Stick.
